@@ -1,0 +1,42 @@
+html, body { width: 100%;
+            height:100%;
+            font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+.img {
+    width:150px;
+    height:150px;
+    margin:50px;
+    float:left;
+}
+
+
+#tablediv{
+    width:100%;
+    margin-right: 30px;
+    border-spacing: 5px,0px;
+}
+
+h1{
+    font:Georgia;
+    font-size: 45px;
+    
+}
+
+.row h6 { 
+    background-color: rgb(37, 27, 131);
+    font:"Geogia";
+    color:white;
+    font-size:15px;
+}
+
+.paraph {
+    font:Times;
+    font-size: 12px;
+}
+
+.row td{
+    padding:20px;
+    margin:20px;
+}
