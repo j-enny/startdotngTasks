@@ -40,3 +40,27 @@ h1{
     padding:20px;
     margin:20px;
 }
+
+.form1{
+    width:50%;
+    height:auto;
+    margin: 30px 200px;
+    background-color: rgb(37, 27, 131); 
+    color:white; 
+}
+
+.side1 {
+    float:left;
+    margin-bottom: 10px;
+    padding:20px;
+    row-gap:2;
+}
+.side2{
+    padding-left:10px;
+    margin-right:80px;
+
+
+}
+#labels{
+    margin-bottom: 40px;
+}
