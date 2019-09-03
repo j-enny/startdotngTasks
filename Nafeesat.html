@@ -76,6 +76,10 @@
                         <h6>PROJECTS</h6>
                         <p class="paraph"> <b>Simple CGPA Calculator</b> <br/> The CGPA calculator was built with python tkinter. Project is available on github account.</p>
                     </td>
+                    <td>
+                        <h6>CERTIFICATIONS</h6>
+                        <p class="paraph">Google Digital Skills, 2019</p>
+                    </td>
                     <!--fourth row contains just one column-->
                 </tr>
 
@@ -84,5 +88,22 @@
             <!--end of table-->
         </div>
         <!--end of table division-->
+        <section class="form1" >
+            <form name="contact">
+        
+                    <legend>Contact Me</legend>
+                    <section class="side1">
+                        Name:<br/> <input type="text" id="labels" name="name" pattern="[A-Za-z]{4,40}" title="name should be atleast 4 characters" required> <br/>
+                        Email:<br/> <input type="email"id="labels"  name="email" pattern="[a-z0-9.*]+@[a-z]+\.(com)" title="enter a valid email account" required> 
+                    </section>
+
+                    <section class="side2">
+                        Title: <br/> <input type="text" name="message_title" pattern="[A-Za-z0-9]"><br/>
+                        Message: <br/> <textarea name="message" cols="50" rows="10" pattern="[A-Za-z0-9.*]{20}" minlength="20"></textarea> <br/>
+                        <input type="submit" value="SEND">
+                    </section>
+    
+            </form>
+        </section>
     </body>
 </html>
