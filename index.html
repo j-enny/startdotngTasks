@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="cvstyle.css">
+        <title> My Resume </title>
+    </head>
+
+    <body>
+        <!--the image link div-->
+            <img class="img" src="https://res.cloudinary.com/lereh/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1566577557/37945566_1870078103073345_4722348036947181568_o_judr2f.jpg" alt="Profile Picture"/>
+        <!-- image link ends here nd table division starts below-->
+        <div id="tablediv">
+            <table> 
+
+            <!--First row in the table-->
+                <tr  class="row">
+                    <td colspan="6"><h1> Nafeesat Eniola <br/>Jimoh </h1></td>
+                    <td colspan="6"> <p class="paraph"><i>Location: Ketu/Ikeja/Surulere/Mushin <br/> Lagos State, Nigeria<br/> Tel: +2347086641763<br/>
+                        <a href="mailto:jimohn97@gmail.com?">jimohn97@gmail.com</a><br/> <a href="https://www.github.com/j-enny">github.com/j-enny</a></i></p></td>
+
+                </tr>
+                <!--first row ends here, and second row begins-->
+
+                <tr class="row">
+                    <td colspan="6">
+                        <h6> EXPERIENCE </h6>
+                        <p class="paraph"><b>Ministry of Energy of Mineral Resources(MEMR), secretariat,Alausa, Ikeja</b><br/>
+                        <small>IT Trainee<br/>November 2014 - February 2015, Lagos</small></p>
+
+                        <p class="paraph"><b>Code Lagos OOS Batch 5</b><br/>
+                            <small>Facilitator<br/>November 2018, Lagos</small></p>
+                        
+                        <p class="paraph"><b>ICT Department, Lagos State Polytechnic</b><br/>
+                            <small>Intern<br/>September 2018 - February 2019, Lagos</small></p>
+                    </td>
+                    <!--each column row contains two columns, column1 ends here and column 2 starts below-->
+                    <td colspan="6">
+                        <h6> SKILLS</h6>
+                        <ul class="paraph">
+                            <li> Problem Solving Skills</li>
+                            <li> Team Working Spirit</li>
+                            <li> Communication Skills</li>
+                            <li> Active Learning</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!--second row ends here and third row begins-->
+                <tr class="row">
+                        <td colspan="6">
+                                <h6> EDUCATION </h6>
+                                <p class="paraph"> <b>Federal University of Agriculture Abeokuta</b><br/>
+                                    <small>B.Sc<br/>2016 - 2019, Abeokuta</small>
+                                </p><br/>
+                                <p class="paraph"> <b>Lagos State Polytechnic</b><br/>
+                                    <small>OND<br/>2013 - 2015, Lagos</small>
+                                </p>
+                                <p class="paraph"> <b>Sagab College</b><br/>
+                                    <small>S.S.C.E<br/>2008 - 2013, Lagos</small>
+                                </p>
+                            </td>
+                            <!--column 1 ends column 2 begins below-->
+                            <td colspan="6">
+                                    <h6> LANGUAGES </h6>
+                                    <ul class="paraph">
+                                        <li> WordPress</li>
+                                        <li> Python(Flask) (beginner)</li>
+                                        <li>Html/CSS (beginner)</li>
+                                    </ul>
+                                </td>
+                </tr>
+                <!--third row ends above, fourth row begins-->
+                <tr class="row">
+                    <td colspan="6">
+                        <h6>PROJECTS</h6>
+                        <p class="paraph"> <b>Simple CGPA Calculator</b> <br/> The CGPA calculator was built with python tkinter. Project is available on github account.</p>
+                    </td>
+                    <td>
+                        <h6>CERTIFICATIONS</h6>
+                        <p class="paraph">Google Digital Skills, 2019</p>
+                    </td>
+                    <!--fourth row contains just one column-->
+                </tr>
+
+
+            </table>
+            <!--end of table-->
+        </div>
+        <!--end of table division-->
+        <section class="form1" >
+            <form name="contact">
+        
+                    <legend>Contact Me</legend>
+                    <section class="side1">
+                        Name:<br/> <input type="text" id="labels" name="name" pattern="[A-Za-z]{4,40}" title="name should be atleast 4 characters" required> <br/>
+                        Email:<br/> <input type="email"id="labels"  name="email" pattern="[a-z0-9.*]+@[a-z]+\.(com)" title="enter a valid email account" required> 
+                    </section>
+
+                    <section class="side2">
+                        Title: <br/> <input type="text" name="message_title" pattern="[A-Za-z0-9]"><br/>
+                        Message: <br/> <textarea name="message" cols="50" rows="10" pattern="[A-Za-z0-9.*]{20}" minlength="20"></textarea> <br/>
+                        <input type="submit" value="SEND">
+                    </section>
+    
+            </form>
+        </section>
+    </body>
+</html>
